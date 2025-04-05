@@ -1,7 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Big Event</title>
+  <link rel="stylesheet" href="bigevent.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <header>
+    <a href="bigevent.html">
+      <img src="images/bigeventlogo-black.png" alt="Logo" class="logo">
+    </a>
+
+    <!-- The checkbox for mobile menu -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" style="display: none;">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+    <nav>
+      <ul class="menu">
+        <li><a href="bigevent.html">Home</a></li>
+        <li><a href="donors.html">Donors</a></li>
+        <li><a href="#About-SGA">About SGA</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-image">
+      <img src="images/hero-image.jpg" alt="Event Hero Image">
+    </div>
+    <div class="hero-overlay">
+      <img class="big-logo" src="images/BElogo-white.png">
+      <a href="#content-section" class="learn-more-btn">Learn More</a>
+    </div>
+  </section>
+
+  <section id="content-section" class="content-section">
+    <!-- Your content goes here -->
+  </section>
+
+  <section class="content-section">
+    <div class="row-container">
+      <div class="row left-align">
+        <img class="image" src="images/food-pic.JPG">
+        <div class="text">
+          <h1>What is the Big Event?</h1>
+          <p><b>The Big Event</b> is an annual community service event hosted by Pittsburg State University's Student Government Association. Hundreds of student organization members come together to complete free yardwork for those who may not have the ability to do so on their own.</p>
+        </div>
+      </div>
+
+      <div class="row right-align">
+        <div class="text">
+          <h1>Our Services</h1>
+          <p>Homeowners can register their houses and specify which services need completed. Services we provide include:</p>
+          <ul>
+            <li>Raking leaves</li>
+            <li>Cleaning gutters</li>
+            <li>Cleaning windows</li>
+            <li>Other services upon request</li>
+          </ul>
+        </div>
+        <img class="image" src="images/services-pic.JPG">
+      </div>
+
+      <div class="row left-align">
+        <img class="image" src="images/students-pic.JPG">
+        <div class="text">
+          <h1>Student Involvement</h1>
+          <p>Several student organizations on the PSU Campus participate in the Big Event, which can count for service points or simply provide a way to engage with the community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="About-SGA" class="SGA">
+    <div class="content">
+      <h1>About SGA</h1>
+      <img class="SGA-pic" src="images/SGA-pic.jpg">
+      <p>Pittsburg State University's Student Government Association spends months planning and raising funds for this event each year. SGA acts as a voice for members of the PSU community and meets regularly to discuss ways to improve campus life.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 The Big Event. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
