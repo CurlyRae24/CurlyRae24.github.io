@@ -1,4 +1,4 @@
-/* General Styles */
+/* Styles */
 body {
     margin: 0;
     font-family: "Inter", Arial, sans-serif;
@@ -48,7 +48,7 @@ footer p {
     margin-top: 1%;
 }
 
-/* Navigation Bar */
+/* Nav Bar */
 header {
     background-color: #CC0C2F;
     padding: 10px 20px;
@@ -324,6 +324,7 @@ nav ul li a {
 .image-row img:hover {
     transform: scale(1.05);
 }
+/* mobile/taablet */
 
 @media screen and (max-width: 1250px) and (min-width: 769px) {
     .row {
